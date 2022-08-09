@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '9.0'
   s.source   = {
-    :git => 'https://github.com/swiftsocket/SwiftSocket.git',
+    :git => 'https://github.com/eddieSullivan/SwiftSocket.git',
     :tag => s.version
   }
   s.source_files  = 'Sources/**/*.{swift,c}'
